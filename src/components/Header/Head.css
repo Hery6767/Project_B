@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    margin: 20px 0px ;
+    width: 100%;
+    background:linear-gradient(to bottom #fff 50%, #e9d3d3 100% );
+    height: auto;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+}
+.logo img{
+    width: 180px;
+    height: 160px;
+}
+/* @property --rotate {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.logo .light {
+    position:absolute;
+    top: 150px  ;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: transparent;
+    background-image:
+     conic-gradient(
+        from var (--rotate) at 29% 10%, #0B1012 40%, #F4F7FC55, #0B1012 60%
+        );
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rotateLight 3s ease-in-out infinite alternate;
+}
+@keyframes rotateLight {
+    from {--rotate: 0.15turn}
+    to {--rotate: -0.15turn}
+} */
+.logo h2 {
+    position:absolute;
+    top: 150px  ;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    background: radial-gradient(circle,#bb9a05, #e4d023,#ad9614 ,#cfc208,#e6cf08);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.search{
+    width: 300px;
+}
+.search input{
+    font-family: 'Quicksand', sans-serif;
+    width: 300px;
+    border: none;
+    border-bottom:1px solid #c2c2c2 ;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('../../image/search.png') ;
+    background-size: 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    /* -webkit-transition: width 0.4s ease-in-out;
+    transition: width  0.4s ease-in-out; */
+}
+/* .search input[type=text]:focus{
+    width: 400px; 
+} */
+.login{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+}
+.login h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #585858 ; 
+    font-weight: 200;
+    font-size: 15px;
+}
+.login img{
+    width: 30px;
+    height: 30px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+}
+.cart h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #585858 ; 
+    font-weight: 200;
+    font-size: 15px;
+    width: 100px;
+    text-decoration: none;
+}
+.cart h3:hover{
+    color: #000000 ; 
+    text-decoration:underline;
+}
+.cart :visited{
+    color: #585858 ; 
+   text-decoration: none;
+}
+.cart :link{
+    color: #585858 ; 
+   text-decoration: none;
+}
+.cart img{
+    width: 35px;
+    height: 35px;
+}

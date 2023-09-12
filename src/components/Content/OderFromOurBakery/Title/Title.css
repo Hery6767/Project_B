@@ -1,0 +1,54 @@
+.title{
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0;
+}
+.background video{       
+    position: absolute;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+.background h1 {
+    font-size: 150px;
+    font-weight: 200;
+    position: relative;
+    color: #ffffff;
+}
+.note{
+    z-index: 999;
+    height: 100px;
+    width: 100%;
+    position:relative;
+    top:30px;
+    align-items: center;
+    text-align: center;
+    background-color: #f7e5e5;
+    padding-top: 10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.noteBox{
+    align-items: center;
+    border: 2px solid #000000;
+    height: 80px;
+    max-width: 100%;
+    padding: 10px;
+}
+.noteBox p {
+    font-family: 'Quicksand', sans-serif;
+}

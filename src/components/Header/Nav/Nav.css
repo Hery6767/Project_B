@@ -1,0 +1,37 @@
+.nav{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dab513;
+    border-bottom: 1px solid #bb9a05;
+    height: 60px;
+    gap :30px;
+    margin-top: 50px;
+    
+}
+a{
+    margin: 0;
+    padding: 0;
+}
+.nav .space{
+    width: 300px;
+}
+.nav h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width:220px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 18px;
+    
+}
+.nav :visited{
+    color: black;
+    text-decoration: none;
+}
+.nav :link{
+    color: black;
+    text-decoration: none;
+}
